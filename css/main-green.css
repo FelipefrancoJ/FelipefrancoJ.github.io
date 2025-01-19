@@ -959,8 +959,18 @@ video{
   height: 100%;
 }
 
-.start-page-content .about-me .block-title h3 {
+.page-content .about-me {
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.page-content .about-me p{
+  text-align: center;
+  width: 100%; 
+  height: auto;
+  max-width: 640px;
 }
 
 .page-content .page-content .download-resume {
