@@ -891,9 +891,9 @@ body > footer .copyrights {
 }
 
 video{
-  width: 100%; /* Faz o vídeo ocupar toda a largura do contêiner */
-  height: auto; /* Mantém a proporção do vídeo */
-  max-width: 640px; /* Opcional: Define um tamanho máximo */
+  width: 100%; 
+  height: auto;
+  max-width: 640px;
 }
 
 .page-content .page-header .title-block h1 {
