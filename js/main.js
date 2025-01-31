@@ -19,5 +19,5 @@ function openInstagram(event) {
 
 function openWpp(event) {
     event.preventDefault();
-    window.open("https://wa.me/11989365941", "_blank");
+    window.open("https://wa.me/5511989365941", "_blank");
 }
