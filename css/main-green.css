@@ -69,7 +69,7 @@ body.ajax-page-visible {
 }
 
 a {
-  color: #d83349;
+  color: #de5479;
   text-decoration: none;
   outline: none;
   -webkit-transition: all 0.3s ease-in-out;
@@ -90,7 +90,7 @@ a:focus {
 }
 
 h1{
-  color: #d83349;
+  color: #de5479;
   text-align: center;
 }
 
@@ -182,7 +182,7 @@ textarea.form-control, textarea.form-control:focus {
   left: 50%;
   right: 50%;
   bottom: 0;
-  background: #d83349;
+  background: #de5479;
   height: 2px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -287,7 +287,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .form-group-with-icon.form-group-focus i {
-  color: #d83349;
+  color: #de5479;
 }
 /* /Form controls */
 
@@ -326,7 +326,7 @@ button, input[type="button"], input[type="submit"] {
 .btn-primary:hover,
 .btn-primary:focus,
 button, input[type="button"], input[type="submit"] {
-  background-color: #d83349;
+  background-color: #de5479;
   color: #fff;
   border: 0;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.3);
@@ -351,11 +351,11 @@ button:hover, input[type="button"]:hover, input[type="submit"]:hover {
 /* / buttons */
 
 .border-top {
-  border-top: 2px solid #d83349;
+  border-top: 2px solid #de5479;
 }
 
 .border-bottom {
-  border-bottom: 2px solid #d83349;
+  border-bottom: 2px solid #de5479;
 }
 
 /* Footer */
@@ -431,7 +431,7 @@ body > footer .copyrights {
 
 .preloader-spinner:after {
   border-color: transparent;
-  border-top-color: #d83349;
+  border-top-color: #de5479;
   -webkit-animation: rotation 0.82s infinite cubic-bezier(0.6,0.3,0.3,0.6);
   animation: rotation 0.82s infinite cubic-bezier(0.6,0.3,0.3,0.6);
 }
@@ -637,7 +637,7 @@ body > footer .copyrights {
 }
 
 .site-title {
-  color: #d83349;
+  color: #de5479;
   font-size: 20px;
   font-weight: 500;
   font-family: 'Montserrat', Helvetica, sans-serif;
@@ -646,7 +646,7 @@ body > footer .copyrights {
 }
 
 .site-title span {
-  color: #d83349;
+  color: #de5479;
 }
 
 .header.sticked .site-title {
@@ -721,7 +721,7 @@ body > footer .copyrights {
   width: 0;
   height: 2px;
   margin: 0 auto;
-  background-color: #d83349;
+  background-color: #de5479;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -o-transition: all 0.15s ease-in-out;
@@ -786,7 +786,7 @@ body > footer .copyrights {
 }
 
 .block-title h3 span {
-  color: #d83349;
+  color: #de5479;
 }
 
 .custom-page-content .block {
@@ -891,7 +891,7 @@ video{
 }
 
 .page-content .page-header .title-block h1 {
-  color: #d83349;
+  color: #de5479;
   font-size: 54px;
   font-weight: 700;
   margin: 30px 0 0;
@@ -915,7 +915,7 @@ video{
   width: 36px;
   height: 36px;
   border-radius: 24px;
-  background-color: #d83349;
+  background-color: #de5479;
   margin: 0 1px;
   color: #9e9e9e;
   text-align: center;
@@ -1152,10 +1152,6 @@ video{
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
   box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
 }
-/* End of Direction-Aware Hover Effect */
-
-
-
 
 /* =======================================
 7.6. Contact subpage
@@ -1197,7 +1193,7 @@ video{
 .contact-info-block i {
   position: relative;
   font-size: 18px;
-  color: #d83349;
+  color: #de5479;
   text-align: center;
   line-height: 36px;
 }
@@ -1254,7 +1250,7 @@ video{
     top: 50px;
     z-index: 1001;
     overflow: auto;
-    background-color: #d83349;
+    background-color: #de5479;
     -webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
@@ -1289,7 +1285,7 @@ video{
     left: 0;
     right: 0;
     height: 50px;
-    background-color: #d83349;
+    background-color: #de5479;
     -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
     box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
