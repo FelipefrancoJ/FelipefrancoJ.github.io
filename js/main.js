@@ -7,3 +7,17 @@ $(window).on('load',function(){$(".preloader").fadeOut("slow");var ptPage=$('.su
 '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
 '<div class="mfp-title mfp-bottom-iframe-title"></div>'+
 '</div>',patterns:{youtube:{index:'youtube.com/',id:null,src:'%id%?autoplay=1'},vimeo:{index:'vimeo.com/',id:'/',src:'//player.vimeo.com/video/%id%?autoplay=1'},gmaps:{index:'//maps.google.',src:'%id%&output=embed'}},srcAction:'iframe_src',},callbacks:{markupParse:function(template,values,item){values.title=item.el.attr('title');}},});$('.ajax-page-load-link').magnificPopup({type:'ajax',removalDelay:300,mainClass:'mfp-fade',gallery:{enabled:true},});$('.form-control').val('').on("focusin",function(){$(this).parent('.form-group').addClass('form-group-focus');}).on("focusout",function(){if($(this).val().length===0){$(this).parent('.form-group').removeClass('form-group-focus');}});$("#map").googleMap();$("#map").addMarker({address:"15 avenue des champs Elysées 75008 Paris"});}).on("DOMSubtreeModified",subpages_resize);})(jQuery);
+function openEmail(event) {
+    event.preventDefault();
+    window.open("mailto:felipefranco1407@gmail.com", "_blank");
+}
+
+function openInstagram(event) {
+    event.preventDefault();
+    window.open("https://www.instagram.com/FelipeFrancoJ/", "_blank");
+}
+
+function openWpp(event) {
+    event.preventDefault();
+    window.open("https://wa.me/11989365941", "_blank");
+}
