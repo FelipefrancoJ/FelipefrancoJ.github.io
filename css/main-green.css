@@ -1000,15 +1000,16 @@ video{
   color: #9e9e9e;
 }
 
-
-
-
-
 /* =======================================
-7.2. Resume subpage
+7.2. Animacao subpage
 ======================================= */
 .page-content{
   text-align: center;
+}
+
+iframe{
+  max-height: 640px;
+  max-width: 500px;
 }
 
 .animacao-item {
@@ -1016,15 +1017,51 @@ video{
   flex-direction: column; 
   align-items: center; 
   text-align: center; 
-  gap: 10px; /* Adiciona espaço entre os elementos */
+  gap: 10px; 
+}
+
+.page-content-animacao{
+  background-color: black;
+}
+
+.page-header-animacao{
+  background-color: black;
+  text-align: center;
+  font-size: 25px;
+}
+
+.making-off {
+  display: flex;
+  flex-direction: column; /* Deixa os elementos um abaixo do outro */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+  text-align: center; /* Centraliza o texto dos títulos */
+  width: 100%; /* Ocupa toda a largura da tela */
+}
+
+.making-off img, 
+.making-off video {
+  max-width: 80%; /* Ajusta o tamanho das imagens e vídeos */
+  height: auto; /* Mantém a proporção original */
+  margin-bottom: 20px; /* Adiciona espaço entre os elementos */
+}
+
+.making-off h1, 
+.making-off h2 {
+  margin-bottom: 15px; /* Dá um espaço abaixo dos títulos */
+}
+
+.ideias-iniciais{
+  display: flex;
+  max-width: 40%;
+  height: auto; 
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .download-resume {
   margin-top: 50px;
 }
-
-
-
 
 /* =======================================
 7.3. Services subpage
