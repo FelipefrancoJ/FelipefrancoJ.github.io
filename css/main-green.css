@@ -1007,10 +1007,26 @@ video{
   text-align: center;
 }
 
-iframe{
-  max-height: 640px;
-  max-width: 500px;
+.video-container {
+  position: relative;
+  width: 100%; /* Ajuste a largura conforme necessário */
+  max-width: 600px; /* Define um limite máximo */
+  margin: 0 auto; /* Centraliza o vídeo */
+  padding-bottom: 45%; /* Mantém a proporção 16:9 (ajuste se necessário) */
+  height: 0;
+  max-height: 100px;
+  overflow: hidden;
 }
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
 
 .animacao-item {
   display: flex;
