@@ -1135,7 +1135,6 @@ video{
   transition: all 0.3s ease-in-out;
 }
 
-
 .portfolio-grid figure a:hover div {
   left: 0px;
 }
@@ -1152,6 +1151,57 @@ video{
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
   box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
 }
+
+/* =======================================
+7.4. Projetos Pessoais subpage
+======================================= */
+.projetos-pessoais h3{
+  color: #d83349;
+  text-align: center;
+  font-size: 27px;
+}
+
+.subdivisao {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* espaço entre os cards */
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.preview-card {
+  width: 300px;
+  margin: 20px auto;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
+}
+
+.preview-card:hover {
+  transform: scale(1.02);
+}
+
+.preview-card a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.preview-card img {
+  width: 100%;
+  display: block;
+}
+
+.preview-text {
+  background-color: #d83349;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.1em;
+}
+
 
 /* =======================================
 7.6. Contact subpage
