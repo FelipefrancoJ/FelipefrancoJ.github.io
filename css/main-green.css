@@ -942,8 +942,10 @@ video{
   padding-bottom: 20px;
   display: flex;
   justify-content: center;
-  gap: 15px
+  gap: 15px;
+  flex-wrap: wrap; 
 }
+
 .start-page-content .page-content {
   padding-top: 20px;
 }
