@@ -69,7 +69,7 @@ body.ajax-page-visible {
 }
 
 a {
-  color: #de5479;
+  color: #da475c;
   text-decoration: none;
   outline: none;
   -webkit-transition: all 0.3s ease-in-out;
@@ -90,13 +90,16 @@ a:focus {
 }
 
 h1{
-  color: #de5479;
+  color: #da475c;
+  font-family: comrade, 'Montserrat', Helvetica, sans-serif;
+  font-style: normal;
   text-align: center;
 }
 
 h2, h3, h4, h5, h6 {
   color: white;
-  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-family: comrade, 'Montserrat', Helvetica, sans-serif;
+  font-style: normal;
   font-weight: 700;
   line-height: 1.5em;
   margin-top: 0;
@@ -182,7 +185,7 @@ textarea.form-control, textarea.form-control:focus {
   left: 50%;
   right: 50%;
   bottom: 0;
-  background: #de5479;
+  background: #da475c;
   height: 2px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -287,7 +290,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .form-group-with-icon.form-group-focus i {
-  color: #de5479;
+  color: #da475c;
 }
 /* /Form controls */
 
@@ -326,7 +329,7 @@ button, input[type="button"], input[type="submit"] {
 .btn-primary:hover,
 .btn-primary:focus,
 button, input[type="button"], input[type="submit"] {
-  background-color: #de5479;
+  background-color: #da475c;
   color: #fff;
   border: 0;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.3);
@@ -351,11 +354,11 @@ button:hover, input[type="button"]:hover, input[type="submit"]:hover {
 /* / buttons */
 
 .border-top {
-  border-top: 2px solid #de5479;
+  border-top: 2px solid #da475c;
 }
 
 .border-bottom {
-  border-bottom: 2px solid #de5479;
+  border-bottom: 2px solid #da475c;
 }
 
 /* Footer */
@@ -431,7 +434,7 @@ body > footer .copyrights {
 
 .preloader-spinner:after {
   border-color: transparent;
-  border-top-color: #de5479;
+  border-top-color: #da475c;
   -webkit-animation: rotation 0.82s infinite cubic-bezier(0.6,0.3,0.3,0.6);
   animation: rotation 0.82s infinite cubic-bezier(0.6,0.3,0.3,0.6);
 }
@@ -637,7 +640,7 @@ body > footer .copyrights {
 }
 
 .site-title {
-  color: #de5479;
+  color: #da475c;
   font-size: 20px;
   font-weight: 500;
   font-family: 'Montserrat', Helvetica, sans-serif;
@@ -646,7 +649,7 @@ body > footer .copyrights {
 }
 
 .site-title span {
-  color: #de5479;
+  color: #da475c;
 }
 
 .header.sticked .site-title {
@@ -721,7 +724,7 @@ body > footer .copyrights {
   width: 0;
   height: 2px;
   margin: 0 auto;
-  background-color: #de5479;
+  background-color: #da475c;
   -webkit-transition: all 0.15s ease-in-out;
   -moz-transition: all 0.15s ease-in-out;
   -o-transition: all 0.15s ease-in-out;
@@ -786,7 +789,7 @@ body > footer .copyrights {
 }
 
 .block-title h3 span {
-  color: #de5479;
+  color: #da475c;
 }
 
 .custom-page-content .block {
@@ -891,7 +894,7 @@ video{
 }
 
 .page-content .page-header .title-block h1 {
-  color: #de5479;
+  color: #da475c;
   font-size: 54px;
   font-weight: 700;
   margin: 30px 0 0;
@@ -915,7 +918,7 @@ video{
   width: 36px;
   height: 36px;
   border-radius: 24px;
-  background-color: #de5479;
+  background-color: #da475c;
   margin: 0 1px;
   color: #9e9e9e;
   text-align: center;
@@ -1245,7 +1248,7 @@ video{
 .contact-info-block i {
   position: relative;
   font-size: 18px;
-  color: #de5479;
+  color: #da475c;
   text-align: center;
   line-height: 36px;
 }
@@ -1302,7 +1305,7 @@ video{
     top: 50px;
     z-index: 1001;
     overflow: auto;
-    background-color: #de5479;
+    background-color: #da475c;
     -webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
     box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
@@ -1337,7 +1340,7 @@ video{
     left: 0;
     right: 0;
     height: 50px;
-    background-color: #de5479;
+    background-color: #da475c;
     -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
     box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
